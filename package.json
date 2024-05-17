@@ -1,8 +1,8 @@
 {
   "name": "express-res-handler",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "index.cjs",
   "type": "module",
   "scripts": {
     "test": "mocha index.test.js"

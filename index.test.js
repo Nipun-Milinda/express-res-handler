@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import sinon from 'sinon';
-import { sendResponse } from './index.js';
+import { sendResponse } from './index.cjs';
 
 describe('sendResponse', () => {
     let res;
