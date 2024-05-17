@@ -1,0 +1,17 @@
+{
+  "name": "responsejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha index.test.js"
+  },
+  "author": "Nipun Milinda",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0",
+    "sinon": "^18.0.0"
+  }
+}
