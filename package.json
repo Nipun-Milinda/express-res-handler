@@ -1,6 +1,6 @@
 {
   "name": "express-res-handler",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "description": "",
   "main": "dist/cjs/index.cjs",
   "module": "dist/esm/index.js",
@@ -12,7 +12,7 @@
     "test": "jest"
   },
   "author": "Nipun Milinda",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^27.0.0",
     "@types/sinon": "^10.0.0",
