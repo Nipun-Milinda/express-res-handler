@@ -1,17 +1,26 @@
 {
   "name": "express-res-handler",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "description": "",
-  "main": "index.cjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "test": "mocha index.test.js"
+    "build": "tsc",
+    "test": "jest"
   },
   "author": "Nipun Milinda",
   "license": "ISC",
   "devDependencies": {
-    "chai": "^5.1.1",
-    "mocha": "^10.4.0",
-    "sinon": "^18.0.0"
+    "@types/jest": "^29.5.12",
+    "@types/sinon": "^17.0.3",
+    "jest": "^29.7.0",
+    "sinon": "^18.0.0",
+    "ts-jest": "^29.1.4",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.19.2"
   }
 }

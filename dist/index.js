@@ -1,4 +1,4 @@
-const sendResponse = (res, statusCode, success, data = {}, message) => {
+const sendResponse = (res, statusCode, success, data = {}, message = undefined) => {
     const response = {
         success,
         data: data === null ? {} : data,
@@ -6,5 +6,4 @@ const sendResponse = (res, statusCode, success, data = {}, message) => {
     };
     return res.status(statusCode).json(response);
 };
-
-module.exports = { sendResponse };
+export { sendResponse };
