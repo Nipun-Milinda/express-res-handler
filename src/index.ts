@@ -9,7 +9,7 @@ const sendResponse = (
   statusCode: number,
   success: boolean,
   data: ResponseData | null = {},
-  message: string | undefined = undefined
+  message?: string
 ): Response => {
   const response = {
     success,
